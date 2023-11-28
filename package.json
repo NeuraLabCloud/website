@@ -1,9 +1,6 @@
 {
-  "name": "my-qwik-empty-starter",
-  "description": "App with Routing built-in ready to create your app",
-  "engines": {
-    "node": ">=15.0.0"
-  },
+  "name": "website",
+  "description": "Neuralab website",
   "private": true,
   "trustedDependencies": [
     "sharp"
@@ -12,10 +9,8 @@
     "build": "qwik build",
     "build.client": "vite build",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
-    "build.server": "vite build -c adapters/vercel-edge/vite.config.ts",
     "build.types": "tsc --incremental --noEmit",
-    "convex": "convex dev --tail-logs",
-    "deploy": "vercel deploy",
+    "deploy": "echo 'Run \"npm run qwik add\" to install a server adapter'",
     "dev": "vite --mode ssr",
     "dev.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
     "fmt": "prettier --write .",
@@ -23,7 +18,8 @@
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
     "start": "vite --open --mode ssr",
-    "qwik": "qwik"
+    "qwik": "qwik",
+    "convex": "convex dev --tail-logs"
   },
   "devDependencies": {
     "@auth/core": "^0.13.0",
@@ -46,7 +42,6 @@
     "tailwindcss": "3.3.3",
     "typescript": "^5.2.2",
     "undici": "^5.26.0",
-    "vercel": "^29.1.1",
     "vite": "^4.4.11",
     "vite-tsconfig-paths": "^4.2.1"
   }
