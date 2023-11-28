@@ -6,8 +6,7 @@ if [ "$answer" == "y" ]; then
     rm -rf dist
     rm -rf server
     rm -rf tmp
-    cd my-app 
-    cargo clean
+    rm -rf .wrangler
     cd ..
     echo "Command completed."
 else
