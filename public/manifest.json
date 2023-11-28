@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "neuralab AI",
+  "short_name": "neuralab",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Developing AI tools for the future."
+}
