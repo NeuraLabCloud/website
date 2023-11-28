@@ -12,8 +12,8 @@ devDependencies:
     specifier: ^1.2.19
     version: 1.2.19(@types/node@20.10.0)(sass@1.69.5)(undici@5.28.1)
   '@builder.io/qwik-auth':
-    specifier: 0.1.1
-    version: 0.1.1(@auth/core@0.18.3)
+    specifier: 0.1.3
+    version: 0.1.3(@auth/core@0.18.3)
   '@builder.io/qwik-city':
     specifier: ^1.2.19
     version: 1.2.19(@types/node@20.10.0)(sass@1.69.5)
@@ -103,8 +103,8 @@ packages:
       preact-render-to-string: 5.2.3(preact@10.11.3)
     dev: true
 
-  /@builder.io/qwik-auth@0.1.1(@auth/core@0.18.3):
-    resolution: {integrity: sha512-PM5gJwqKM3KKYqYZhwxlMe/XvaCB2Jczv+MMh8z82Z7tK9uWJ7qG3OEdVF6tNeCOolzmL7tWHypBT2+Was5/4Q==}
+  /@builder.io/qwik-auth@0.1.3(@auth/core@0.18.3):
+    resolution: {integrity: sha512-plj4kHkHpT5sPe9bUYoMFKZlV5XDkWL4D/56TMzRCNC1Vse6NHwVl/78jT7wbeIe+CAtsNbsuDv8TQj9p3iZUg==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       '@auth/core': ^0.13.0
