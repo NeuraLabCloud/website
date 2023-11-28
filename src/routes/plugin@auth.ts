@@ -18,6 +18,7 @@ export const { onRequest, useAuthSession, useAuthSignin, useAuthSignout } =
     },
     providers: [
       GitHub({
+        checks: ["none"],
         clientId: env.get("GITHUB_CLIENT_ID")!,
         clientSecret: env.get("GITHUB_CLIENT_SECRET")!,
       }),

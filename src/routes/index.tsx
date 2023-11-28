@@ -16,7 +16,9 @@ export default component$(() => {
     <>
       <div class="container mx-auto">
         <div class="flex h-screen flex-col items-center justify-center">
-          <div class="text-4xl font-bold text-primary underline">Neuralab AI</div>
+          <div class="text-4xl font-bold text-primary underline">
+            Neuralab AI
+          </div>
           <div class="text-2xl font-bold">
             Developing AI tools without limits.
           </div>

@@ -38,14 +38,14 @@ export const Navbar = component$(() => {
           <li>
             {!auth.value ? (
               <Link
-                class="hover:text-secondary rounded-md bg-zinc-700 px-2 py-1"
+                class="rounded-md bg-zinc-700 px-2 py-1 hover:text-secondary"
                 href="/signin"
               >
                 Sign In
               </Link>
             ) : (
               <Link
-                class="hover:text-secondary rounded-md bg-zinc-700 px-2 py-1"
+                class="rounded-md bg-zinc-700 px-2 py-1 hover:text-secondary"
                 href="/console"
               >
                 Web Console
