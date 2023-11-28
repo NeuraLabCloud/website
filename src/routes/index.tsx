@@ -23,7 +23,7 @@ export default component$(() => {
 
           <div class="mt-8">
             <a
-              class="bg-zinc-700 hover:bg-secondary text-white font-bold py-2 px-4 rounded"
+              class="rounded bg-zinc-700 px-4 py-2 font-bold text-white hover:bg-secondary"
               href="#todo"
             >
               Install Neuralab

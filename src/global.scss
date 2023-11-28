@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
 
 // make custom variables
 $primary: #2e716c;
@@ -20,7 +20,7 @@ $dark-sub: #3f3f46;
     -o-tab-size: 4;
     tab-size: 4;
     font-family:
-      'Nova Square',
+      "Nova Square",
       ui-sans-serif,
       system-ui,
       -apple-system,
@@ -48,7 +48,7 @@ $dark-sub: #3f3f46;
     -o-tab-size: 4;
     tab-size: 4;
     font-family:
-      'Nova Square',
+      "Nova Square",
       ui-sans-serif,
       system-ui,
       -apple-system,

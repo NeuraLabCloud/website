@@ -30,7 +30,7 @@ export default component$(() => {
   return (
     <div class="flex h-screen items-center justify-center">
       <button
-        class="hover:bg-secondary rounded bg-zinc-800 px-4 py-2"
+        class="rounded bg-zinc-800 px-4 py-2 hover:bg-secondary"
         onClick$={() =>
           signIn.submit({
             providerId: "github",
