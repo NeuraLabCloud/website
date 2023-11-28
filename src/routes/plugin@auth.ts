@@ -6,7 +6,7 @@ import { ConvexAdapter, type IUserRole } from "~/lib/auth/Adapter";
 export const { onRequest, useAuthSession, useAuthSignin, useAuthSignout } =
   serverAuth$(({ env }) => ({
     adapter: ConvexAdapter(),
-    secret: env.get("AUTH_SECRET"),
+    secret: "aCkY5ZHufGFfBdnDNzloUCysozXpwsGoYJmuwppkhyo",
     trustHost: true,
     session: {
       strategy: "database",
